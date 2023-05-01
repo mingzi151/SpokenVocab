@@ -16,7 +16,7 @@ Stitching speech works for any languages as long as the language is supported by
 
 Required files (take English as an example):
 - word vocabulary: `vocab/vocab.en.txt`
-- SpokenVocab bank: download speeches from this [link](https://drive.google.com/file/d/1TM9M_GtleT55kCP893uHcuelukQZhsym/view?usp=share_link) for the above word vocabulary and unpact it under `./voice`
+- SpokenVocab bank: download speeches from this [link](https://drive.google.com/file/d/1TM9M_GtleT55kCP893uHcuelukQZhsym/view?usp=share_link) for the above word vocabulary and unpact it under `voice`
 
 Structure of `vocab` (you may prepare a similar structure for your language or vocabulary)
 
@@ -37,21 +37,10 @@ The output is saved under `output/spk#/lang/crossfade` and wav files are named b
 **Currently supported languages and speakers**
 - English 
   - Vocab size: 36765
-  - Ten speakers (all aged between 20-40): 
-    - spk0: US accent, female
-    - spk1: US accent, male
-    - spk2: US accent, female
-    - spk3: US accent, male
-    - spk4: US accent, male
-    - spk5: UK accent, female
-    - spk6: UK accent, male
-    - spk7: UK accent, female
-    - spk8: UK accent, male
-    - spk9: UK accent, male
+  - Ten speakers
 - Bengali
   - Vocab size: 33821
-  - One speaker: 
-    - spk0: female, aged between 20-40
+  - One speaker 
 
 Note that in the case of out-of-vocabulary words, the default tokens ("a" for English and "অইচি" Bengali) are used.
 
